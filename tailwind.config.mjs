@@ -11,44 +11,20 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'Open Sans', 'Nunito', 'system-ui', 'sans-serif'],
+        freckle: ['var(--font-freckle-face)', 'cursive'],
       },
       colors: {
         // Everyman Brand Colors
         primary: {
-          50: '#f4f8fb',
-          100: '#e3eef7',
-          200: '#c7dff0',
-          300: '#a3cbe4',
-          400: '#7eb6d8',
-          500: '#4f8fcb', // Soft blue
-          600: '#3973a6',
-          700: '#2b567a',
-          800: '#1d384e',
-          900: '#0f1b23',
+          1: '#011627', // rich blue black
+          2: '#FDFFFC', // bone white
         },
         secondary: {
-          50: '#f6fbf8',
-          100: '#e6f6ec',
-          200: '#c3ebd6',
-          300: '#a0e0c0',
-          400: '#7bc47f', // Gentle green
-          500: '#5ea06a',
-          600: '#4a7e54',
-          700: '#355c3e',
-          800: '#213a28',
-          900: '#0c1812',
+          1: '#ff9f1c', // a simple orange
+          2: '#00a84f', // good fortune green
         },
         accent: {
-          50: '#fdfaf6',
-          100: '#f7f2ea',
-          200: '#ede3d1',
-          300: '#e3d3b8',
-          400: '#d9c39f',
-          500: '#c2a97e', // Warm neutral
-          600: '#9b865f',
-          700: '#746340',
-          800: '#4d4021',
-          900: '#261d02',
+          1: '#F71735', // hot red
         },
         neutral: {
           50: '#f9fafb',

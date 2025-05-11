@@ -102,15 +102,15 @@
 @layer utilities {
   /* Brand Gradient Utilities */
   .bg-gradient-brand {
-    @apply bg-gradient-to-r from-primary-400 to-accent-200;
+    @apply bg-gradient-to-r from-primary-1 to-primary-2;
   }
   
   .text-gradient-brand {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-accent-200;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-1 to-accent-1;
   }
 
   .bg-gradient-innovation {
-    @apply bg-gradient-to-r from-secondary-400 to-accent-100;
+    @apply bg-gradient-to-r from-secondary-2 to-accent-1;
   }
 
   /* High-contrast text utilities for accessibility */

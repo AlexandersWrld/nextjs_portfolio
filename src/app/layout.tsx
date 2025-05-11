@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { IBM_Plex_Mono, Inter } from "next/font/google";
 import { MainNav } from "@/components/main-nav";
+import { Freckle_Face } from 'next/font/google';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -14,6 +15,12 @@ const ibmPlexMono = IBM_Plex_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
   display: "swap",
+});
+
+const freckleFace = Freckle_Face({
+  subsets: ['latin'],
+  weight: '400',  // Freckle Face only comes in one weight
+  variable: '--font-freckle-face',
 });
 
 export const metadata: Metadata = {
@@ -41,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={freckleFace.variable} suppressHydrationWarning>
       <body className={`${inter.variable} ${ibmPlexMono.variable} font-sans antialiased`}>
         <MainNav />
         {children}
