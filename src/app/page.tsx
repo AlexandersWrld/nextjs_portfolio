@@ -53,22 +53,22 @@ export default function Home() {
           
           <Card className="border-l-4 border-l-secondary-1">
             <CardHeader>
-              <CardTitle className="text-secondary-700 text-2xl">Get Real Results</CardTitle>
+              <CardTitle className="text-secondary-700 text-2xl">80% of What Is Seen is Remembered</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-medium-contrast">
-                I don&#39;t make noise — I deliver sharp results that cut through the clutter and leave a mark.
+                I forge bold visual stories that move audiences and burn themselves into memory. Smart brands leverage visuals to leave a mark on the minds of customers.
               </p>
             </CardContent>
           </Card>
 
           <Card className="border-l-4 border-l-secondary-2">
             <CardHeader>
-              <CardTitle className="text-primary-700 text-2xl">Look The Part</CardTitle>
+              <CardTitle className="text-primary-700 text-2xl">60% of Consumers are More Likely to Interact with Visual Content</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-medium-contrast">
-                Talking the talk and walking the walk is easy enough. Looking the part is another story. I can help with that.
+              Secure your share of the clicks. Talking the talk and walking the walk is easy enough once you figure it out. Looking the part is another story. I can help with that.
               </p>
     
             </CardContent>
@@ -76,11 +76,11 @@ export default function Home() {
 
           <Card className="border-l-4 border-l-accent-1">
             <CardHeader>
-              <CardTitle className="text-accent-700 text-2xl">Tell Compelling Stories</CardTitle>
+              <CardTitle className="text-accent-700 text-2xl">90% of Information Trasnmitted to The Brain is Visual</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-medium-contrast">
-                I forge bold visual stories that move audiences and burn themselves into memory.
+              This is why strong, consistent visual branding is crucial for making a lasting impression and communicating your message effectively.
               </p>
       
             </CardContent>
