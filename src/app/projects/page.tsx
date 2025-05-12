@@ -11,7 +11,7 @@ export default function Projects() {
         style={{ width: '100%', height: '70vh', border: 'none' }} 
         title="Marina Samuel Campaign Site"/>
         <br></br>
-        <h2 className="text-primary-2">Project 2 - My Very Website</h2>
+        <h2 className="text-primary-2">Project 2 - My First Website</h2>
           <p className="text-xl text-primary-2">This was my very first website. I made it for practice, and modelled it after my freelance graphic design. It was the very first site I ever built made with nothing but HTML, CSS and Boostrap.</p>
         <iframe src="https://alexanderswrld.github.io/WebProject-AdisaMedia/" 
         style={{ width: '100%', height: '70vh', border: 'none' }} 
