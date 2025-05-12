@@ -121,4 +121,10 @@
   .text-medium-contrast {
     @apply text-neutral-700 dark:text-neutral-300;
   }
+
+  .bg-outlaw {
+  background-image: url('/adisabanner2.jpg');
+  background-size: cover;
+  background-position: center;
+}
 }
