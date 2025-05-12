@@ -3,6 +3,8 @@ import "./globals.css";
 import { IBM_Plex_Mono, Inter } from "next/font/google";
 import { MainNav } from "@/components/main-nav";
 import { Freckle_Face } from 'next/font/google';
+import { Climate_Crisis } from 'next/font/google';
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,6 +24,14 @@ const freckleFace = Freckle_Face({
   weight: '400',  // Freckle Face only comes in one weight
   variable: '--font-freckle-face',
 });
+
+
+const climateCrisis = Climate_Crisis({
+  weight: '400', // Specify the weights you need
+  subsets: ['latin'],     // Specify the subsets you need
+  variable: '--font-climate-crisis',
+});
+
 
 export const metadata: Metadata = {
   title: {

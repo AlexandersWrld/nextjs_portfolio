@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div className="min-h-screen bg-primary-1 flex flex-col items-center justify-center px-4">
       <main className="max-w-8xl w-5/6 space-y-10 py-20">
-        <h1 className="text-accent-1 font-freckle tracking-wider">My Projects</h1>
+        <h1 className="text-accent-1 text-7xl font-freckle tracking-wider">My Projects</h1>
         <h2 className="text-primary-2">Project 1 - Student Senate Campaign Website</h2>
         <p className="text-xl text-primary-2">This was a campaign website I did as a commission for a friend of mine who &#40;successfully&#41; ran for student senate president at NJIT.</p>
         <iframe src="https://marinaforpresident.github.io/campaign/" 

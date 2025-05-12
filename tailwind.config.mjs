@@ -12,6 +12,7 @@ export default {
       fontFamily: {
         sans: ['Inter', 'Open Sans', 'Nunito', 'system-ui', 'sans-serif'],
         freckle: ['var(--font-freckle-face)', 'cursive'],
+        climate: ['Climate Crisis', 'sans-serif'],
       },
       colors: {
         // Everyman Brand Colors
