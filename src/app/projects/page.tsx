@@ -16,7 +16,7 @@ export default function Projects() {
         style={{ width: '100%', height: '70vh', border: 'none' }} 
         title="Data Vizualization Project"/>
         <h2 className="text-primary-2">Project 3 - Node.js Chatroom</h2>
-        <iframe src="https://datavisualization-is-219.vercel.app/" 
+        <iframe src="https://sockets-io.vercel.app/" 
         style={{ width: '100%', height: '70vh', border: 'none' }} 
         title="Chatroom"/>
 
