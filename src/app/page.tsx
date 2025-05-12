@@ -90,7 +90,7 @@ export default function Home() {
         {/* Invitation Section - Friendly Call to Action */}
         <div className="text-center space-y-4 py-16">
           <h2 className="text-secondary-2 font-freckle tracking-wider max-w-3xl mx-auto">
-            Dare to be different.
+            Invest In Your Aesthetic.
           </h2>
         </div>
       </main>
