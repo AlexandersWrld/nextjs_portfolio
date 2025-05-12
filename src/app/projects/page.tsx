@@ -11,14 +11,20 @@ export default function Projects() {
         style={{ width: '100%', height: '70vh', border: 'none' }} 
         title="Marina Samuel Campaign Site"/>
         <br></br>
-        <h2 className="text-primary-2">Project 2 - Data Vizualization Project</h2>
+        <h2 className="text-primary-2">Project 2 - My Very Website</h2>
+          <p className="text-xl text-primary-2">This was my very first website. I made it for practice, and modelled it after my freelance graphic design. It was the very first site I ever built made with nothing but HTML, CSS and Boostrap.</p>
+        <iframe src="https://alexanderswrld.github.io/WebProject-AdisaMedia/" 
+        style={{ width: '100%', height: '70vh', border: 'none' }} 
+        title="Data Vizualization Project"/>
+        <h2 className="text-primary-2">Project 3 - Data Vizualization Project</h2>
         <iframe src="https://datavisualization-is-219.vercel.app/" 
         style={{ width: '100%', height: '70vh', border: 'none' }} 
         title="Data Vizualization Project"/>
-        <h2 className="text-primary-2">Project 3 - Node.js Chatroom</h2>
+        <h2 className="text-primary-2">Project 4 - Node.js Chatroom</h2>
         <iframe src="https://sockets-io.vercel.app/" 
         style={{ width: '100%', height: '70vh', border: 'none' }} 
         title="Chatroom"/>
+
 
 
         <div className="text-center">
