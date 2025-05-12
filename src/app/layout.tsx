@@ -35,11 +35,11 @@ const climateCrisis = Climate_Crisis({
 
 export const metadata: Metadata = {
   title: {
-    default: "Outlaw AI Consultancy",
-    template: "%s | Outlaw AI Consultancy",
+    default: "Alexander Boyd",
+    template: "%s | Alexander Boyd",
   },
   description: "Challenging the AI status quo with radical honesty and evidence-based disruption",
-  authors: [{ name: "Outlaw AI Consultancy" }],
+  authors: [{ name: "Alexander Boyd" }],
   keywords: ["AI consultancy", "digital transformation", "disruptive innovation"],
 };
 

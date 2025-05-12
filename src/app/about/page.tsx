@@ -7,7 +7,8 @@ export default function About() {
       <main className="space-y-16 px-4">
         <div className="w-full flex items-center justify-end h-[60vh] bg-outlaw">
         <div className="text-right mr-32">
-        <h1 className="text-primary-2 font-freckle tracking-wider text-center">Meet The Man with The Method</h1>
+        <h3 className="text-primary-2 tracking-wider text-center">This is the part where I</h3>
+        <h1 className="text-primary-2 font-freckle tracking-wider text-center">Talk About Myself</h1>
         </div>
         </div>
         
