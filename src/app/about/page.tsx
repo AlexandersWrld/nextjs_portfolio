@@ -7,7 +7,7 @@ export default function About() {
       <main className="space-y-16 px-4">
         <div className="w-full flex items-center justify-end h-[60vh] bg-outlaw">
         <div className="text-right mr-32">
-        <h1 className="text-primary-2 text-4xl font-freckle tracking-wider text-center">Meet The Man with The Method</h1>
+        <h1 className="text-primary-2 font-freckle tracking-wider text-center">Meet The Man with The Method</h1>
         </div>
         </div>
         
@@ -18,11 +18,12 @@ export default function About() {
           <p className="text-xl text-primary-2 max-w-8xl">
           I am familiar with popular frontend frameworks like Next.js, Node.js and React. I also have advanced proficiency in Adobe Photoshop, Illustrator and After Effects.
           </p>
-        
         </div>
+
        <div className="text-center">
           <Link href="/" className="text-primary underline hover:text-primary-700">Back to Home</Link>
         </div>
+
       </main>
     </div>
     
