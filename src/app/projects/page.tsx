@@ -14,7 +14,12 @@ export default function Projects() {
         <h2 className="text-primary-2">Project 2 - Data Vizualization Project</h2>
         <iframe src="https://datavisualization-is-219.vercel.app/" 
         style={{ width: '100%', height: '70vh', border: 'none' }} 
-        title="Marina Samuel Campaign Site"/>
+        title="Data Vizualization Project"/>
+        <h2 className="text-primary-2">Project 3 - Node.js Chatroom</h2>
+        <iframe src="https://datavisualization-is-219.vercel.app/" 
+        style={{ width: '100%', height: '70vh', border: 'none' }} 
+        title="Chatroom"/>
+
 
         <div className="text-center">
           <Link href="/" className="text-primary underline hover:text-primary-700">Back to Home</Link>
